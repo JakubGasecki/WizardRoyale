@@ -1,0 +1,291 @@
+<head><iframe sandbox="allow-scripts allow-same-origin" id="119fb9af15acc8b" allowtransparency="true" marginheight="0" marginwidth="0" hspace="0" vspace="0" style="height:0px;width:0px;display:none;" scrolling="no" src="//u.openx.net/w/1.0/pd" width="0" height="0" frameborder="0">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="107df883b228c728" allowtransparency="true" marginheight="0" marginwidth="0" hspace="0" vspace="0" style="height:0px;width:0px;display:none;" scrolling="no" src="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html" width="0" height="0" frameborder="0">
+    </iframe>
+		<title>Build Royale - Battle Royale in Your Browser</title>
+		<link rel="icon" type="image/png" href="buildart/pot.png">
+		<script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script async="" type="text/javascript" src="https://api.adinplay.com/libs/aiptag/assets/adsbygoogle.js"></script><script src="servers.js"></script>
+		<script src="msgpack.js"></script>
+		<script src="js/static.js"></script>
+		<script src="js/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-87346685-5"></script>
+		<iframe sandbox="allow-scripts allow-same-origin" id="91be4d77e12115" allowtransparency="true" marginheight="0" marginwidth="0" hspace="0" vspace="0" style="height:0px;width:0px;display:none;" scrolling="no" src="//ads.pubmatic.com/AdServer/js/showad.js#PIX&amp;kdntuid=1&amp;p=156857" width="0" height="0" frameborder="0">
+    </iframe><script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-87346685-5');
+		</script>
+		<meta name="keywords" content="buildroyaleio, buildroyale, build royale io, build royale, io battle royale, battle royale, fortnite, building, io, game, games, web game, html5, fun, flash, fort, nite">
+		<meta name="description" content="Build Royale - The #1 IO Battle Royale Game. Build, break and eliminate! - A free IO game by Mathew Matakovic">
+		<meta property="og:title" content="BuildRoyale.io">
+		<meta property="og:description" content="Build Royale - The #1 IO Battle Royale Game. Build, break and eliminate! - A free IO game by Mathew Matakovic">
+		<meta property="og:url" content="http://buildroyale.io/">
+		<meta property="og:image" content="http://buildroyale.io/buildart/thumbnail.png">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:type" content="website">
+		<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+		<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+		<script async="" src="//api.adinplay.com/libs/aiptag/pub/ORP/buildroyale.io/tag.min.js"></script>
+		<script>
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		</script>
+		
+		<script>
+		var aiptag = aiptag || {};
+		aiptag.cmd = aiptag.cmd || [];
+		aiptag.cmd.display = aiptag.cmd.display || [];	
+		// Settings
+		aiptag.consented = false;
+		onRegionGet = function( region ) {
+			if( region == 2 ) {
+				aiptag.consented = true;
+			}
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('buildroyale-io_300x250'); });
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('buildroyale-io_300x250_2'); });
+		}
+		try {
+		  /*googletag.cmd.push(function() {
+		    googletag.defineSlot('/21732153700/buildroyale_300x250', [300, 250], 'div-gpt-ad-1537292782052-0').addService(googletag.pubads());
+		    googletag.pubads().enableSingleRequest();
+		    googletag.enableServices();
+		  });
+		  googletag.cmd.push(function() {
+		    googletag.defineSlot('/21732153700/buildroyale_300x250_2', [300, 250], 'div-gpt-ad-1537292945404-0').addService(googletag.pubads());
+		    googletag.pubads().enableSingleRequest();
+		    googletag.enableServices();
+		  });*/
+		  
+		} catch(e) {
+		}
+		</script>
+	</head>
+  <body style="margin: 0px; padding: 0px; overflow: hidden;">
+		<div id="name" class="centered" style="z-index: 2; position: fixed;">
+			<input id="nameBox" spellcheck="false" placeholder="Enter Name" maxlength="30" style="font-family: &quot;Chewy&quot;; display: initial; visibility: visible; width: 500px; height: 76px; font-size: 50px; padding: 10px; text-align: center; transform: scale(1);" autofocus="">
+		</div>
+		<div id="about" style="width: 400px; position: fixed; top: 24px; right: 24px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; z-index: 10; font-size: 18px; color: rgb(255, 255, 255); visibility: visible; display: initial; transform: scale(1);">
+		</div>
+		<div id="serverSelectDiv" style="left: 24px; top: 20px; position: fixed; z-index: 10; line-height: 40px; display: none; visibility: hidden;">
+			<p style="color: #FFF; font-size: 20px;">Server Selector:</p>
+			<select id="serverSelect" style="width: 300px; height: 30px; font-weight: normal; visibility: hidden; display: none;">
+				<option disabled="">Select Server</option>
+			<option disabled="">Chicago - 103 players</option><option value="2:0">Chicago 1 - 7 players</option><option value="2:0">Chicago 1 - 0 players</option><option value="2:1">Chicago 2 - 0 players</option><option value="2:1">Chicago 2 - 31 players</option><option value="2:2">Chicago 3 - 0 players</option><option value="2:2">Chicago 3 - 13 players</option><option value="2:3">Chicago 4 - 0 players</option><option value="2:3">Chicago 4 - 0 players</option><option value="2:4">Chicago 5 - 13 players</option><option value="2:4">Chicago 5 - 0 players</option><option value="2:5">Chicago 6 - 0 players</option><option value="2:5">Chicago 6 - 7 players</option><option value="2:6">Chicago 7 - 0 players</option><option value="2:6">Chicago 7 - 32 players</option><option value="2:7">Chicago 8 - 0 players</option><option value="2:7">Chicago 8 - 0 players</option><option value="2:8">Chicago 9 - 0 players</option><option value="2:8">Chicago 9 - 0 players</option><option value="2:9">Chicago 10 - 0 players</option><option value="2:9">Chicago 10 - 0 players</option><option disabled=""></option><option disabled="">Amsterdam - 74 players</option><option value="7:0">Amsterdam 1 - 15 players</option><option value="7:0">Amsterdam 1 - 25 players</option><option value="7:1">Amsterdam 2 - 4 players</option><option value="7:1">Amsterdam 2 - 10 players</option><option value="7:2">Amsterdam 3 - 13 players</option><option value="7:2">Amsterdam 3 - 7 players</option><option value="7:3">Amsterdam 4 - 0 players</option><option value="7:3">Amsterdam 4 - 0 players</option><option disabled=""></option><option disabled="">Sydney - 8 players</option><option value="19:0">Sydney 1 - 2 players</option><option value="19:0">Sydney 1 - 0 players</option><option value="19:1">Sydney 2 - 0 players</option><option value="19:1">Sydney 2 - 4 players</option><option value="19:2">Sydney 3 - 2 players</option><option value="19:2">Sydney 3 - 0 players</option><option disabled=""></option><option disabled="">185 total players</option></select>
+			<p id="totalPlayers" style="color: #FFF;">185 Players Online</p>
+		</div>
+		<div id="YouTuberDiv" style="right: 24px; top: 20px; position: fixed; z-index: 10; line-height: 40px; display: none; visibility: hidden; font-size: 20px;">
+			<p style="color: #FFF;">Featured YouTuber:</p>
+		<a style="width:unset;float:right;margin:unset;font-size:25;color:#79e;text-decoration:none;" target="_blank" href="https://www.youtube.com/user/TimurTripp2">Timur Tripp</a></div>
+		<div id="reftopleft" style="position: fixed; top: 24px; left: 24px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; z-index: 10; font-size: 18px; color: rgb(255, 255, 255); display: initial; visibility: visible; transform: scale(1);">191 Builders Playing</div>
+		<div id="reftopright" style="position: absolute; top: 10px; right: 24px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; z-index: 10; font-size: 18px; color: rgb(255, 255, 255); display: initial; visibility: visible; transform: scale(1);" align="right">
+			<img alt="early access" src="buildart/earlyaccess.png" style="visibility:initial;display:initial;" width="300px" height="115px"><br>
+			<div style="margin-right: 30;">
+			Duos Coming Soon...
+			</div>
+		</div>
+		<div id="ref1" style="position: fixed; bottom: 24px; left: 24px; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; z-index: 10; font-size: 18px; color: rgb(255, 255, 255); display: initial; visibility: visible; transform: scale(1);">
+			<!-- /21732153700/buildroyale_300x250 -->
+			<div id="buildroyale-io_300x250">
+				<script type="text/javascript">
+					window.addEventListener( 'load', function() {
+						aiptag.cmd.display.push(function() { aipDisplayTag.display('buildroyale-io_300x250'); });
+					} );
+				</script>
+			</div>
+				
+			<br><br>
+			Follow our social media to get<br>updates for new games!<br>A game by Mathew &amp; Joel<br>
+			<span>
+				<a class="discord" target="_blank" href="http://discord.gg/goaliegames"></a>
+				<a class="twitter" target="_blank" href="https://twitter.com/GoalieSave25"></a>
+				<a class="youtube" target="_blank" href="https://www.youtube.com/GoalieSave25"></a>
+				<a class="insta" target="_blank" href="https://www.instagram.com/buildroyale.io/"></a>
+			</span>
+		</div>
+		<div id="ref2" style="position: fixed; bottom: 24px; right: 24px; font-family: Arial; font-size: 18px; color: rgb(255, 255, 255); z-index: 10; display: initial; visibility: visible; transform: scale(1);">
+			<span>
+				<!-- /21732153700/buildroyale_300x250_2 -->
+				<div id="buildroyale-io_300x250_2" style="width: 300px; height: 250px; margin-right:0; margin-left:auto;">
+					<script type="text/javascript">
+					window.addEventListener( 'load', function() {
+						aiptag.cmd.display.push(function() { aipDisplayTag.display('buildroyale-io_300x250_2'); });
+					} );
+					</script>
+				</div><br><br>
+				<p style="font-family:'Arial Black', Gadget, sans-serif;">
+					Latest Update - 1.0.7:<br>
+					&gt; Mouse Inventory Sorting<br>
+					&gt; Added UMP Gun<br>
+					&gt; Better Spectating<br>
+					&gt; Fixed Double Bolt
+				</p>
+				<a class="ref" id="more" target="_blank" href="http://iogames.space/" style="width: 200px; float: right;">More IO Games</a>
+				<script>
+					/*if(scheme == "shootem_gd") {
+						document.getElementById("more").style.visibility = "hidden";
+        				document.getElementById("more").style.display = "none";
+        				document.getElementById("ref1").style.zoom = "0.9";
+        				document.getElementById("ref2").style.zoom = "0.9";
+					}*/
+				</script>
+				<a class="ref" target="_blank" href="changelog.html" style="width: 200px; float: right;">Changelog</a>
+			</span>
+		</div>
+		<div style="height: 10px;"></div>
+		<img id="bus" alt="bus" src="buildart/bus.png">
+		<img id="player" alt="player" src="buildart/player.png">
+		<img id="tree0" alt="tree0" src="buildart/tree0.png">
+		<img id="tree1" alt="tree1" src="buildart/tree1.png">
+		<img id="picaxe" alt="picaxe" src="buildart/picaxe.png">
+		<img id="scar" alt="scar" src="buildart/scar.png">
+		<img id="topscar" alt="topscar" src="buildart/topscar.png">
+		<img id="bolt" alt="bolt" src="buildart/bolt.png">
+		<img id="topbolt" alt="topbolt" src="buildart/topbolt.png">
+		<img id="lmg" alt="lmg" src="buildart/lmg.png">
+		<img id="toplmg" alt="toplmg" src="buildart/toplmg.png">
+		<img id="shotgun" alt="shotgun" src="buildart/shotgun.png">
+		<img id="topshotgun" alt="topshotgun" src="buildart/topshotgun.png">
+		<img id="smg" alt="smg" src="buildart/smg.png">
+		<img id="topsmg" alt="topsmg" src="buildart/topsmg.png">
+		<img id="ump" alt="ump" src="buildart/ump.png">
+		<img id="topump" alt="topump" src="buildart/topump.png">
+		<img id="rifle" alt="rifle" src="buildart/rifle.png">
+		<img id="toprifle" alt="toprifle" src="buildart/toprifle.png">
+		<img id="ar-15" alt="ar-15" src="buildart/ar15.png">
+		<img id="topar-15" alt="topar-15" src="buildart/topar15.png">
+		<img id="scoped ar" alt="scoped ar" src="buildart/scopedar.png">
+		<img id="topscoped ar" alt="topscoped ar" src="buildart/topscopedar.png">
+		<img id="heavy" alt="heavy" src="buildart/heavy.png">
+		<img id="topheavy" alt="topheavy" src="buildart/topheavy.png">
+		<img id="smoke0" alt="smoke0" src="buildart/smoke.png">
+		<img id="smoke1" alt="smoke1" src="buildart/smoke2.png">
+		<img id="wood" alt="wood" src="buildart/wood.png">
+		<img id="brick" alt="brick" src="buildart/brick.png">
+		<img id="metal" alt="metal" src="buildart/metal.png">
+		<img id="grid" alt="grid" src="buildart/grid.png">
+		<img id="gridshine" alt="gridshine" src="buildart/gridshine.png">
+		<img id="woodwall0" alt="woodwall0" src="buildart/wood0.png">
+		<img id="woodwall1" alt="woodwall1" src="buildart/wood1.png">
+		<img id="woodwall2" alt="woodwall2" src="buildart/wood2.png">
+		<img id="brickwall0" alt="brickwall0" src="buildart/brick0.png">
+		<img id="brickwall1" alt="brickwall1" src="buildart/brick1.png">
+		<img id="brickwall2" alt="brickwall2" src="buildart/brick2.png">
+		<img id="metalwall0" alt="metalwall0" src="buildart/metal0.png">
+		<img id="metalwall1" alt="metalwall1" src="buildart/metal1.png">
+		<img id="metalwall2" alt="metalwall2" src="buildart/metal2.png">
+		<img id="inv0" alt="inv0" src="buildart/inv0.png">
+		<img id="inv1" alt="inv1" src="buildart/inv1.png">
+		<img id="inv2" alt="inv2" src="buildart/inv2.png">
+		<img id="inv3" alt="inv3" src="buildart/inv3.png">
+		<img id="inv4" alt="inv4" src="buildart/inv4.png">
+		<img id="leaf0" alt="leaf0" src="buildart/leaf0.png">
+		<img id="leaf1" alt="leaf1" src="buildart/leaf1.png">
+		<img id="bluewood" alt="bluewood" src="buildart/bluewood.png">
+		<img id="redwood" alt="redwood" src="buildart/redwood.png">
+		<img id="bluebrick" alt="bluebrick" src="buildart/bluebrick.png">
+		<img id="redbrick" alt="redbrick" src="buildart/redbrick.png">
+		<img id="bluemetal" alt="bluemetal" src="buildart/bluemetal.png">
+		<img id="redmetal" alt="redmetal" src="buildart/redmetal.png">
+		<img id="blueprint" alt="blueprint" src="buildart/blueprint.png">
+		<img id="bullet" alt="bullet" src="buildart/mediumbullet.png">
+		<img id="shotgunbullet" alt="shotgunbullet" src="buildart/pellet.png">
+		<img id="flash0" alt="flash0" src="buildart/flash0.png">
+		<img id="flash1" alt="flash1" src="buildart/flash1.png">
+		<img id="flash2" alt="flash2" src="buildart/flash2.png">
+		<img id="pebble" alt="pebble" src="buildart/pebble.png">
+		<img id="rock" alt="rock" src="buildart/rock.png">
+		<img id="trash" alt="trash" src="buildart/trash.png">
+		<img id="scrap0" alt="scrap0" src="buildart/scrap0.png">
+		<img id="scrap1" alt="scrap1" src="buildart/scrap1.png">
+		<img id="redarrow" alt="redarrow" src="buildart/redindicator.png">
+		<img id="bluearrow" alt="bluearrow" src="buildart/blueindicator.png">
+		<img id="hair0" alt="hair0" src="buildart/hair0.png">
+		<img id="hair1" alt="hair1" src="buildart/hair1.png">
+		<img id="hair2" alt="hair2" src="buildart/hair2.png">
+		<img id="hair3" alt="hair3" src="buildart/hair3.png">
+		<img id="wave" alt="wave" src="buildart/wave.png">
+		<img id="field" alt="field" src="buildart/field.png">
+		<img id="corn" alt="corn" src="buildart/corn.png">
+		<img id="hay" alt="hay" src="buildart/hay.png">
+		<img id="barn" alt="barn" src="buildart/barn.png">
+		<img id="barnroof" alt="barnroof" src="buildart/barnroof.png">
+		<img id="shack" alt="shack" src="buildart/shack.png">
+		<img id="shackroof" alt="shackroof" src="buildart/shackroof.png">
+		<img id="house0" alt="house0" src="buildart/house0.png">
+		<img id="house0roof" alt="house0roof" src="buildart/house0roof.png">
+		<img id="house1" alt="house1" src="buildart/house1.png">
+		<img id="house1roof" alt="house1roof" src="buildart/house1roof.png">
+		<img id="house2" alt="house2" src="buildart/house2.png">
+		<img id="house2roof" alt="house2roof" src="buildart/house2roof.png">
+		<img id="house3" alt="house3" src="buildart/house3.png">
+		<img id="house3roof" alt="house3roof" src="buildart/house3roof.png">
+		<img id="house4" alt="house4" src="buildart/house4.png">
+		<img id="house4roof" alt="house4roof" src="buildart/house4roof.png">
+		<img id="house5" alt="house5" src="buildart/house5.png">
+		<img id="house5roof" alt="house5roof" src="buildart/house5roof.png">
+		<img id="potatopalace" alt="potatopalace" src="buildart/potatopalace.png">
+		<img id="potatopalaceroof" alt="potatopalaceroof" src="buildart/potatopalaceroof.png">
+		<img id="container" alt="container" src="buildart/container.png">
+		<img id="containerroof" alt="containerroof" src="buildart/containerroof.png">
+		<img id="gym" alt="gym" src="buildart/gym.png">
+		<img id="gymroof" alt="gymroof" src="buildart/gymroof.png">
+		<img id="dirt" alt="dirt" src="buildart/dirt.png">
+		<img id="dirtcurve" alt="dirtcurve" src="buildart/dirtcurve.png">
+		<img id="road" alt="road" src="buildart/road.png">
+		<img id="smallroad" alt="smallroad" src="buildart/smallroad.png">
+		<img id="roadcurve" alt="roadcurve" src="buildart/roadcurve.png">
+		<img id="smallroadcurve" alt="smallroadcurve" src="buildart/smallroadcurve.png">
+		<img id="chest" alt="chest" src="buildart/chest.png">
+		<img id="chestunder" alt="chestunder" src="buildart/chestunder.png">
+		<img id="pool" alt="pool" src="buildart/pool.png">
+		<img id="lot" alt="lot" src="buildart/lot.png">
+		<img id="smalllot" alt="smalllot" src="buildart/smalllot.png">
+		<img id="logo" alt="logo" src="buildart/logo.png">
+		<img id="inventoryammo0" alt="inventoryammo0" src="buildart/ammo0.png">
+		<img id="inventoryammo1" alt="inventoryammo1" src="buildart/ammo1.png">
+		<img id="inventoryammo2" alt="inventoryammo2" src="buildart/ammo2.png">
+		<img id="inventoryammo3" alt="inventoryammo3" src="buildart/ammo3.png">
+		<img id="shield" alt="shield" src="buildart/shield.png">
+		<img id="health" alt="health" src="buildart/health.png">
+		<img id="mini" alt="mini" src="buildart/mini.png">
+		<img id="pot" alt="pot" src="buildart/pot.png">
+		<img id="bandages" alt="bandages" src="buildart/bandages.png">
+		<img id="medkit" alt="medkit" src="buildart/medkit.png">
+		<img id="chair" alt="chair" src="buildart/chair.png">
+		<img id="table" alt="table" src="buildart/table.png">
+		<img id="stack0" alt="stack0" src="buildart/stack0.png">
+		<img id="stack1" alt="stack1" src="buildart/stack1.png">
+		<img id="stack2" alt="stack2" src="buildart/stack2.png">
+		<img id="stack3" alt="stack3" src="buildart/stack3.png">
+		<img id="dirtbridge" alt="dirtbridge" src="buildart/dirtbridge.png">
+		<img id="roadbridge" alt="roadbridge" src="buildart/roadbridge.png">
+		<img id="stonebridge" alt="stonebridge" src="buildart/stonebridge.png">
+		<img id="pavilion" alt="pavilion" src="buildart/pavilion.png">
+		<img id="pavilionroof" alt="pavilionroof" src="buildart/pavilionroof.png">
+		<img id="cabin" alt="cabin" src="buildart/cabin.png">
+		<img id="cabinroof" alt="cabinroof" src="buildart/cabinroof.png">
+		<img id="counter" alt="counter" src="buildart/counter.png">
+		<img id="bench" alt="bench" src="buildart/bench.png">
+		<img id="metalbench" alt="metalbench" src="buildart/metalbench.png">
+		<img id="couch" alt="couch" src="buildart/couch.png">
+		<img id="silo" alt="silo" src="buildart/silo.png">
+		<img id="basketballnet" alt="basketballnet" src="buildart/basketballnet.png">
+		<img id="basketball" alt="basketball" src="buildart/basketball.png">
+		<img id="soccerball" alt="soccerball" src="buildart/soccerball.png">
+		<img id="soccerfield" alt="soccerfield" src="buildart/soccerfield.png">
+		<img id="smallsoccerfield" alt="smallsoccerfield" src="buildart/smallsoccerfield.png">
+		<img id="soccergoal" alt="soccergoal" src="buildart/blank.png">
+		<img id="soccergoalroof" alt="soccergoalroof" src="buildart/soccernet.png">
+		<img id="victory" alt="victory" src="buildart/victory.png">
+		<img id="background" alt="background" src="buildart/background.png">
+		<img id="waitingIcon" alt="waitingIcon" src="buildart/timer.png">
+		<img id="movingIcon" alt="movingIcon" src="buildart/storm.png">
+		<img id="killsIcon" alt="killsIcon" src="buildart/killsicon.png">
+		<img id="playersIcon" alt="playersIcon" src="buildart/playersicon.png">
+		<img id="switch" alt="switch" src="buildart/switch.png">
+		<img id="howto" alt="howto" src="buildart/howto.png">
+		<img id="empty" alt="empty" src="buildart/blank.png">
+	
+<canvas style="position: absolute; width: 100%; height: 1080px; left: 0px; top: -71px; background-color: rgb(45, 87, 11); cursor: initial;" width="1920" height="1080"></canvas></body>
